@@ -4,8 +4,14 @@ body {
     margin: 0;
     font-family: "Baloo Thambi 2", cursive;
     background-color: white;
+    height: 100%;
 }
-
+html {
+    height: 100%;
+}
+main {
+    height: 100%;
+}
 
 .tierdesign {
     background-color: #077825;
@@ -33,4 +39,19 @@ body {
     text-align: center;
     color: #ffffff;
     font-size: 25px;    
+}
+.clickbait {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    position: relative;
+    box-shadow: inset 7px 36px 63px -34px rgba(0, 70, 38, 0.76);
+}
+.clickbait h1 {
+    position: absolute;
+    top: 120px;
+    left: 100px;
+    font-size: 60px;
+    color: white;
+    
 }

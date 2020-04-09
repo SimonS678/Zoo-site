@@ -12,16 +12,20 @@ html {
 main {
     height: 100%;
 }
-
+.tierdesign-container {
+    margin: 20px auto 0 auto;
+    width: fit-content;
+}
 .tierdesign {
-    background-color: #077825;
+    background-color: #509A7D;
     width: 400px;
     padding: 20px;
-    border: 0.5px solid black;
     border-radius: 10px;
     display: inline-block;
     vertical-align: top;
-    margin-right: 25px;
+    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.5);
+    margin-left: 15px;
+    margin-right: 15px;
 }  
 
 .tierdesign img {

@@ -6,6 +6,7 @@ nav > ul {
 	text-align: right;
 	font-size: 0;
 	border-right: 0px solid white;
+	position: relative;
 }
 nav li {
 	margin: 0px;
@@ -72,4 +73,24 @@ nav ul.subnav li:last-child a {
 }
 nav ul.subnav a.active {
 	background-color: #004626;
+}
+.suche {
+	position: absolute;
+	top: 0px;
+	left: 20px;
+}
+.suche input {
+	color: #004626;
+}
+::placeholder {
+	color: #004626;
+}
+.suche button {
+	border: 1px solid black;
+	padding: 3px;
+	padding-left: 5px;
+	padding-right: 5px;
+	background-color: #509A7D;
+	color: white;
+	cursor: pointer;
 }

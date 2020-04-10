@@ -94,3 +94,28 @@ nav ul.subnav a.active {
 	color: white;
 	cursor: pointer;
 }
+footer {
+	background-color: #509A7D;
+	color: white;
+	border-top: 2px solid #004626;
+	box-shadow: inset 7px 36px 63px -34px rgba(0, 70, 38, 0.76);
+	text-align: right;
+	padding-right: 50px;
+	padding-top: 10px;
+	
+}
+footer a {
+	color: white;
+	text-decoration: none;
+	
+}
+footer ul {
+	display: inline-block;
+	list-style: none;
+}
+footer li {
+	text-align: left;
+	margin-right: 20px;
+	padding-bottom: 10px;
+	
+}

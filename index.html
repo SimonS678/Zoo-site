@@ -6,6 +6,7 @@
     <title>Der Kölner Zoo</title>
     <link rel="stylesheet" href="css/stylesnav.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/passwort.css">
 </head>
 <body>
 
@@ -29,7 +30,21 @@
         </h1>
     </div>
 </main>
+
 <footer>
+    
+    <form class="passwort-form" onsubmit='event.preventDefault()'>
+    <label for="benutzername">Benutzername:</label>
+    <input id="benutzername" type="text">
+    <label for="passwort">Passwort:</label>
+    <input id="passwort" type="text">
+    <button id="button" type="submit">Abschicken</button>
+    <p id="output"></p> 
+    </form>
+    
+    <audio class="tierdesign" controls autoplay>
+    <source src="img/beat.mp3" type="audio/mpeg">
+    </audio>
     <ul>
     <li><a href="kontakt.html">Kontakt</a></li>
     <li><a href="#">Impressum</a></li>
@@ -42,4 +57,5 @@
     </ul>
 </footer>
 </body>
+<script src="passwort.js" type="text/javascript"></script>
 </html>

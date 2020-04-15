@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Der Kölner Zoo</title>
+    <link rel="stylesheet" href="css/stylesnav.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/passwort.css">
+</head>
+<body>
+
+<nav>
+    <ul>    
+        <li><a class="active" href="index.html">HOME</a></li>
+        <li><a href="tierindex.html">TIERE NACH KATEGORIEN </a></li>
+        <li><a href="kontakt.html">KONTAKT </a></li>
+   </ul>
+</nav>
+<main>
+    <div class="clickbait" style="background-image: url('img/strauss.jpg');">
+        <h1>
+           Rechner
+        </h1>
+        <form class="rechner-form" onsubmit='event.preventDefault()'>
+            <label for="tier">Tier:</label>
+            <input id="tier" type="text">
+            <label for="anzahl">Anzahl:</label>
+            <input id="anzahl" type="text">
+            <button id="button" type="submit">Abschicken</button>
+            <p id="output"></p> 
+        </form>
+    </div>
+    
+</main>
+<footer>
+    <ul>
+    <li><a href="kontakt.html">Kontakt</a></li>
+    <li><a href="#">Impressum</a></li>
+    <li><a href="#">Datenschutz</a></li>
+    </ul>
+    <ul>
+    <li><a href="#">AGB</a></li>
+    <li><a href="#">Presse</a></li>
+    <li><a href="#">Spenden</a></li>
+    </ul>
+</footer>
+</body>
+<script src="rechner.js" type="text/javascript"> </script>
+</html>
